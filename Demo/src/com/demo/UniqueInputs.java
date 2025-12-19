@@ -1,6 +1,6 @@
 package com.demo;
 
-public class Loop {
+public class UniqueInputs {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
