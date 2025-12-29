@@ -11,6 +11,7 @@ public class array3 {
 		System.out.println("Please Enter the number of Employes :- ");
 		int n = sc.nextInt();
 		sc.nextLine();
+		
 		String a[] = new String[n];
 		
 		for(int i=0;i<a.length;i++) {
@@ -21,8 +22,7 @@ public class array3 {
 		for(int i=0;i<a.length;i++) {
 			System.out.print(a[i]+ " ");
 		}
-		
-
+			
+		sc.close();
 	}
-
 }

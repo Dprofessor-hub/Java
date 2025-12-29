@@ -8,12 +8,13 @@ public class Array2 {
 		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Please enter the number of students present in class :-");
-		int n = sc.nextInt();	
+		int n = sc.nextInt();
+		
 		int a[] = new int[n];
 		
 		
 		for(int i=0;i<a.length;i++) {
-			System.out.println("Please Enter Marks of Student "+ i);
+			System.out.println("Please Enter Marks of Student "+ i + ":- ");
 			a[i]= sc.nextInt();
 		}
 		

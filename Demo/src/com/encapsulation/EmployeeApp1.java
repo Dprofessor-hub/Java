@@ -5,7 +5,7 @@ public class EmployeeApp1 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Employee1 e = new Employee1(); // error because don't providing values to the constructor.
+		Employee1 e = new Employee1(101,"aa",20); // error because don't providing values to the constructor.
 		System.out.println(e.getEmpid());
 		System.out.println(e.getName());
 		System.out.println(e.getSalary());

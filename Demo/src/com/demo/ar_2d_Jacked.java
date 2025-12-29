@@ -8,7 +8,7 @@ public class ar_2d_Jacked{
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Enter number of classes: ");
+        System.out.print("Enter number of classes:- ");
         int n = sc.nextInt();
 
         int[][] a = new int[n][];

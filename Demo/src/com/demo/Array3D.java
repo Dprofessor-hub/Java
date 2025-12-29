@@ -26,7 +26,7 @@ public class Array3D {
 		for(int i=0;i<a.length;i++) {
 			for(int j=0;j<a[i].length;j++) {
 				for(int k=0;k<a[i][j].length;k++) {
-					System.out.println("Please Enter the number of college "+ i + " Class"+ j+ " Students"+ k );
+					System.out.println("Please Enter the Marks of college "+ i + " Class"+ j+ " Students"+ k );
 					a[i][j][k]= sc.nextInt();
 					
 				}

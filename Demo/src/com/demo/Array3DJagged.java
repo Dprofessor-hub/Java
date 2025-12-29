@@ -20,7 +20,7 @@ public class Array3DJagged {
 			int classes = sc.nextInt();
 			a[i] = new int[classes][];
 			for(int j=0;j<a[i].length;j++) {
-				System.out.println("please Enter the no. of students in each class");
+				System.out.println("please Enter the no. of students in each class :- ");
 				int b=sc.nextInt();
 				a[i][j]=new int[b];
 			}
@@ -31,7 +31,7 @@ public class Array3DJagged {
 		for(int i=0;i<a.length;i++) {
 			for(int j=0;j<a[i].length;j++) {
 				for(int k=0;k<a[i][j].length;k++) {
-					System.out.println("Please Enter the number of college "+ i + " Class"+ j+ " Students"+ k );
+					System.out.println("Please Enter the Marks of college "+ i + " Class"+ j+ " Students"+ k + ":- ");
 					a[i][j][k]= sc.nextInt();
 					
 				}
@@ -50,7 +50,7 @@ public class Array3DJagged {
 			System.out.println();
 		}
 		
-	
+	sc.close();
 	}
 
 }

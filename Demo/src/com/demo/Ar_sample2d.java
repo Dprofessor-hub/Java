@@ -109,7 +109,8 @@ public class Ar_sample2d {
 			System.out.println();
 		}
 		
-
+		sc.close();
+		
 	}
 
 }
